@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jimmy.floating_action_button.MainActivity">
+
+    <item
+        android:id="@+id/mailus"
+        android:icon="@drawable/ic_mail_us"
+        android:title="Mail us" />
+
+    <item
+        android:id="@+id/callus"
+        android:icon="@drawable/ic_call_us"
+        android:title="Call us" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/zoom"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_zoom"
+        android:title="Zoom" />
+
+</menu>
